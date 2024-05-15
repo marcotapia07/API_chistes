@@ -1,0 +1,64 @@
+/*Estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(../../resource/img/fondo.png) no-repeat center center/cover;
+    background-color: #f5f5f5;
+}
+
+.contenido-centrado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 80vh;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    border: 5px solid black ;
+}
+
+.container-interno{
+    width: 80%;
+}
+
+#titulo{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Courgette", cursive;
+}
+
+#chiste{
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+#boton-cambiar-cita{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
